@@ -1,2 +1,3 @@
 01-configure-script.patch
 02-bigbuffer.patch
+03-undefined-behavior-shift.patch
