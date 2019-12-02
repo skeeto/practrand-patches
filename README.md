@@ -22,7 +22,7 @@ PractRand:
 export UBSAN_OPTIONS=print_stacktrace=1
 CXX=g++ \
   CXXFLAGS='-ggdb3 -Og -fsanitize=address -fsanitize=undefined' \
-  LDLIBS='-fsanitize=address -fsanitize=undefined' \
+  LDFLAGS='-fsanitize=address -fsanitize=undefined' \
   ./configure
 make -kj$(nproc)
 ./RNG_test stdin64 </dev/urandom
