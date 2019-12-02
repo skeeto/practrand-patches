@@ -15,8 +15,8 @@ make -kj$(nproc)
 ```
 
 In particular, I'm interested in running PractRand compiled with
-sanitizer instrumentation since it reveals lots of serious bugs in
-PractRand:
+sanitizer instrumentation since it, along with compiler warnings,
+reveals lots of serious bugs in PractRand:
 
 ```sh
 export UBSAN_OPTIONS=print_stacktrace=1
