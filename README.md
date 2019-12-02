@@ -1,8 +1,10 @@
-# Patches for PractRand
+# PractRand Patches
 
 This is a series of quilt patches that adds a simple configure script
 for building, [improves performance][pcg], and fixes bugs. These patches
-specifically target PractRand pre0.95.
+specifically target [PractRand][pr] pre0.95.
+
+Usage:
 
 ```sh
 curl -OL https://downloads.sourceforge.net/project/pracrand/PractRand-pre0.95.zip
@@ -27,3 +29,4 @@ make -kj$(nproc)
 ```
 
 [pcg]: http://www.pcg-random.org/posts/how-to-test-with-practrand.html
+[pr]: http://pracrand.sourceforge.net/
