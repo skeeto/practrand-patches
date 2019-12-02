@@ -21,10 +21,3 @@
  		Word read() { if (pos == end) refill(); return *(pos++); }
  	};
  	class RNG_stdin : public PractRand::RNGs::vRNG8 {
-@@ -654,4 +657,4 @@
- 	}
- }
- 
--#endif//RNG_from_name_h
-\ No newline at end of file
-+#endif//RNG_from_name_h
